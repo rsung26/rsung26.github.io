@@ -1,21 +1,13 @@
-html, body, .container {
-	height:100%;
-}
-
 body {
-	background-image:url('../images/green_cup.png');
+	background-image:url('../images/tweed.png');
 }
 
 .container {
-	background-image:url('../images/crossword.png');
-}
+	background-image:url('../images/linedpaper.png');
+	font-family: 'Lusitana', serif;
+	font-size:16px;
 
-.about-container {
-	padding:0 15px;
-}
-
-nav ul{
-	/*background-color: red;*/
+	min-height:100%;
 }
 
 nav li {
@@ -24,11 +16,9 @@ nav li {
 	margin: 5px;
 }
 
+i { cursor:default; }
 
-.resources-container {
-	padding: 0 15px;
-}
-
-i {
-	cursor:default;
+.main-content {
+	/*margin:0 15px;*/
+	background-color: 
 }
