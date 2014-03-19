@@ -6,7 +6,7 @@ body {
 	background-image:url('../images/linedpaper.png');
 	font-family: 'Lusitana', serif;
 	font-size:16px;
-
+	padding:0 15px;
 	min-height:100%;
 }
 
@@ -22,3 +22,9 @@ i { cursor:default; }
 	/*margin:0 15px;*/
 	background-color: 
 }
+
+.project-item {
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+

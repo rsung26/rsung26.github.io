@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Richard Sung</title>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="stylesheets/flexslider.css">
 
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
@@ -25,58 +25,65 @@
 			</nav>
 		</header>
 
-		<div class="about-container sixteen columns">
-			<h1 class="five columns">Richard Sung</h1>
-		</div>
+		<h1 class="sixteen columns">Richard Sung</h1>
 
-		<div class="main-content">
-			<div class="project-container twelve columns">
-				<h3>Recent Projects</h3>
+		<div class="main-content two-thirds column">
+			<div class="about-container">
+				<h3>About Me</h3>
+				<p>I am a Full Stack Web Developer who enjoys working on cool ideas and collaborating others just as passionate as me about building websites to address peoples' needs. I am generally language agnostic and believe in the right tool for the right task at a given time. Feel free to checkout out portfolio or contact me if you have any questions.</p>
+			</div>
+
+			<div class="project-container">
+				<h3>My Portfolio</h3>
 				<div class="project-item">
+					<img class="scale-with-grid" src="images/html5-msc.png"></img>
 					<a id="html5-msc" href="http://html5-msc.herokuapp.com/" title="">HTML5 Marine Split Challenge</a>
 					<p>An HTML5 Real Time Strategy Arcade Hybrid Game.</p>
 				</div>	
 				<div class="project-item">
+					<img class="scale-with-grid" src="images/lifelines.png" height="248px"></img>
 					<a id="lifelines" href="http://day-one-lifelines.herokuapp.com/" title="">Day One Lifelines</a>
 					<p>Chat client for women in abusive relationships. Created for Hack upon a Cause 2014.</p>
 				</div>
 				<div class="project-item">
+				<img class="scale-with-grid" src="images/balderdash.png" height="248px"></img>
 					<a id="balderdash" href="http://balderdash.herokuapp.com/" title="">BalderDash</a>
 					<p>A multiplayer online word game. Created with a five member team.</p>
 				</div>
 				<div class="project-item">
+					<img class="scale-with-grid" src="images/ga-nlp.png" height="248px"></img>
 					<a id= "ga-nlp" href="http://ga-nlp.herokuapp.com/" title="">Text Classification CRUD App</a>
 					<p>Apply Machine Learning classification to text and tweets in a simple web interface.</p>
 				</div>
 			</div>
+		</div>
 
-			<div class="resources-container four columns">
-				<h3>Resources</h3>
+		<div class="sidebar one-third column">
+			<div class="skills-container">
+				<h3>Skills</h3>			
 				<ul>
-					<li><a href="mailto:rsung26@gmail.com">Resume</a></li>
-					<li><a href="mailto:rsung26@gmail.com">Senior Project Poster</a></li>	
+					<li><strong>Programming: </strong></li>
+					<li>Full Stack Web Development, Test Driven Development, Machine Learning</li>
+					<li><strong>Languages: </strong></li>
+					<li>Ruby, Python, PHP, Javascript, HTML/CSS, SQL, Java, C, Assembly, Prolog</li>
+					<li><strong>Frameworks and Libraries: </strong> </li>
+					<li>Rails, Sinatra, RSpec, jQuery, Backbone.js, Phaser, D3.js, Mocha, Bootstrap, Skeleton</li>
+					<li><strong>Version Control and Deployment: </strong> </li>
+					<li>Git, Subversion, Heroku, Pivotal Tracker, Linux</li>
 				</ul>
 			</div>
-
-			<div class="skills-container twelve columns">
-				<h3>Skills and Interests</h3>			
+			<div class="resources-container">
+				<h3>Resources</h3>
 				<ul>
-					<li>Full Stack Web Development. Experience in Test Driven Development and Machine Learning.</li>
-					<li><strong>Languages: </strong>Ruby, Python, PHP, Javascript, HTML/CSS, SQL, Java, C, Assembly, Prolog</li>
-					<li><strong>Frameworks: </strong> Rails, Sinatra, RSpec, jQuery, Backbone.js, Phaser, D3.js, Mocha, Bootstrap, Skeleton</li>
-					<li><strong>Applications: </strong> Git, Subversion, Heroku, Pivotal Tracker, Linux</li>
+					<li><a href="">Resume</a></li>
+					<li><a href="">Senior Project Poster</a></li>
 				</ul>
-
-			</div> 
-
-			<footer class="sixteen columns">
-			</footer>
-
+			</div>
 		</div>
 	</div>
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="javascripts/jquery.flexslider-min.js"></script>
 	<script src="javascripts/scripts.js"></script>
 </body>
 </html>
