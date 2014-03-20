@@ -28,3 +28,10 @@ i { cursor:default; }
 	margin: 0 auto;
 }
 
+.project-item a {
+	font-size:20px;
+}
+
+.section {
+	padding-bottom:50px;
+}
