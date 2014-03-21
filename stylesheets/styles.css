@@ -32,3 +32,21 @@ i { cursor:default; }
 	font-size:20px;
 }
 
+.item-description {
+	padding:15px 15px 0 15px;
+}
+
+hr	{
+	border-color:#905424;
+}
+
+.skills-header h3 {
+	display:inline;
+}
+
+.fa-check {
+	display:inline;
+	color:green;
+	margin-left:5px;
+	font-size:24px;
+}
