@@ -40,7 +40,7 @@ hr	{
 	border-color:#905424;
 }
 
-.skills-header h3 {
+.skills-header h3, .interests-header h3 {
 	display:inline;
 }
 
